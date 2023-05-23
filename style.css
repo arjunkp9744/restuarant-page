@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;1,100&family=Almarai:wght@300;400&family=Bruno+Ace&family=Instrument+Serif:ital@0;1&family=Mukta:wght@200;300;400;500&family=Righteous&family=Roboto:wght@100;300;400;500;700&family=Secular+One&family=Signika:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    height: 200px;
+}
+.logo img{
+    max-width: 200px;
+    height: 200px;
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.navmenu :hover{
+    color: red;
+}
+
+
+
+#menu-icon{
+    font-size: 35px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    padding: 60px 12%;
+   
+}
+.home{
+    width: 100%;
+    height: 100vh;
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.home-text{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-text span{
+    color: crimson;
+}
+.home-image img{
+    height: 600px;
+    width: 700px;
+    
+
+    
+}
+.about{
+    padding-top: 30px;
+    height: 600px;
+   
+   
+    
+}
+.about h2{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+
+}
+.about span {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    font-weight: bold;
+   margin-left: 640px;
+}
+.about h3{
+    font-size: 30px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+    margin-left: 50px;
+    
+}
+.about p{
+    letter-spacing: 2px;
+    margin-left: 20px;
+   
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-image img{
+    margin-right: 200px;
+    
+}
+.menu{
+    height: 1100px ;
+}
+.menu h1{
+    text-align: center;
+   
+    color: rgb(154, 12, 242);
+}
+/* .my-contact{
+    padding-top: 300px;
+    height: 400px;
+    background-color: blanchedalmond;
+    
+} */
+#contact{
+     margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%; 
+   
+   
+
+}
+.icon-div{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    margin: 0 10px;
+}
+.icon i{
+    font-size: 25px;
+    border-radius: 50%;
+
+}
+.icon:hover{
+    background-image: linear-gradient(red, yellow, green);
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+.up-arrow{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, red, yellow);
+    
+
+}
+#contact .heading{
+    text-align: center;
+}
